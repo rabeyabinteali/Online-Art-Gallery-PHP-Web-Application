@@ -1,0 +1,141 @@
+main{
+    display: flex;
+    height: 100%;
+}
+
+aside{
+    background-color: #fbf2d5;
+    width: 20%;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+aside h2{
+    font-size: 2rem;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+aside p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.info,.request,.statistics{
+    border: 1px solid rgb(253, 237, 188);
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+.info{
+    background-color: rgba(255, 255, 255, 0.645);
+    border: 1px solid grey;
+}
+
+.request:hover{
+    background-color: rgba(255, 255, 255, 0.645);
+    border: 1px solid grey;
+}
+
+.statistics:hover{
+    background-color: rgba(255, 255, 255, 0.645);
+    border: 1px solid grey;
+}
+
+.panel{
+    background-color: grey;
+    /* margin-top: 0; */
+    padding: 1px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.result{
+    /* background-color: orange; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.result h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    width: 40%;
+    height: 70%;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.line{
+    background-color: navy;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.line h2{
+    font-size: 2rem;
+}
+
+.result label{
+    font-size: 1.5rem;
+}
+
+.result input[type=text],input[type=email],input[type=number]{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.result input[type=button]{
+    padding: 5px 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.cancel{
+    margin-left: 20%;
+    background-color: red;
+    color: yellow;
+}
+
+.verify{
+    margin-right: 20%;
+    background-color: greenyellow;
+    color: black;
+}
+
+.cancel:hover{
+    background-color: rgba(255, 0, 0, 0.526);
+    cursor: pointer;
+}
+
+.verify:hover{
+    background-color: green;
+    cursor: pointer;
+}

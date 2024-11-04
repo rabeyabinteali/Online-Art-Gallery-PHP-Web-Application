@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    height: 100%;
+}
+
+aside{
+    background-color: #fbf2d5;
+    width: 20%;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+aside h2{
+    font-size: 2rem;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+aside p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.info,.request,.statistics{
+    border: 1px solid rgb(253, 237, 188);
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+.statistics{
+    background-color: rgba(255, 255, 255, 0.645);
+    border: 1px solid grey;
+}
+
+.info:hover{
+    background-color: rgba(255, 255, 255, 0.645);
+    border: 1px solid grey;
+}
+
+.request:hover{
+    background-color: rgba(255, 255, 255, 0.645);
+    border: 1px solid grey;
+}
+
+.panel{
+    background-color: grey;
+    /* margin-top: 0; */
+    padding: 1px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.result{
+    /* background-color: orange; */
+    width: 100%;
+}
+
